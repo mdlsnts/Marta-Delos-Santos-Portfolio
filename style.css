@@ -3,7 +3,8 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Nunito", sans-serif;
-  --secondary-font: "Mynerve", cursive;
+  --header-font: "Mynerve", cursive;
+  --secondary-font: "Tenor Sans", sans-serif;
 }
 
 body {
@@ -11,6 +12,12 @@ body {
   max-width: 100%;
   font-family: var(--primary-font);
   margin-top: 100px;
+  background-image: linear-gradient(
+    24deg,
+    #8ec5fc 0%,
+    #e0c3fc 40%,
+    #ffffff 100%
+  );
 }
 
 h1,
@@ -22,12 +29,13 @@ h3 {
 
 h1 {
   font-size: 80px;
-  font-family: var(--secondary-font);
+  font-family: var(--header-font);
 }
 
 h2 {
   font-size: 48px;
   margin-top: 40px;
+  font-family: var(--secondary-font);
 }
 
 h3 {
@@ -118,6 +126,9 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+.navbar-custom {
+  background-color: #e0c3fc;
+}
 
 .primary-link {
   border-radius: 4px;
@@ -133,7 +144,7 @@ p {
   text-align: left;
 }
 .contact-me {
-  font-family: var(--secondary-font);
+  font-family: var(--header-font);
 }
 
 @media (max-width: 576px) {
