@@ -147,7 +147,7 @@ p {
   justify-content: space-between;
 }
 .navbar-custom {
-  background-color: #e0c3fc;
+  background-color: #f4f0f0;
 }
 
 .primary-link {
@@ -160,23 +160,24 @@ p {
   color: white;
 }
 .p-title {
-  font-size: 34px;
+  font-size: 32px;
   text-align: center;
 }
 .contact-me {
   font-family: var(--header-font);
 }
 
-@media (max-width: 576px) {
-  .home-photo {
-    max-height: 300px;
-    display: block;
-    margin: auto;
-  }
+@media (max-width: 766px) {
   .this-is-me {
     display: none;
   }
-
+  .home-photo {
+    max-height: 350px;
+    display: block;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
   h1 {
     font-size: 50px;
   }
