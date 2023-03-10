@@ -65,6 +65,7 @@ p {
 .home-photo {
   background-color: var(--accent-color);
   max-height: 450px;
+  border: 3px solid var(--secondary-color);
 }
 
 .about-me-d {
@@ -116,13 +117,14 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 28px;
   text-decoration: none;
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .navbar-brand {
