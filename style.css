@@ -58,6 +58,10 @@ p {
   float: right;
 }
 
+.home-photo-me {
+  background-color: var(--accent-color);
+  max-height: 450px;
+}
 .home-photo {
   background-color: var(--accent-color);
   max-height: 450px;
@@ -149,15 +153,10 @@ p {
 .navbar-custom {
   background-color: #f4f0f0;
 }
-
 .primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+  font-size: 25px;
+  color: var(--secondary-color);
+  margin-left: 25px;
 }
 .p-title {
   font-size: 32px;
@@ -171,10 +170,18 @@ p {
   .this-is-me {
     display: none;
   }
-  .home-photo {
+  .home-photo-me {
     max-height: 350px;
     display: block;
     margin: auto;
+  }
+  .home-photo {
+    display: none;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
 @media (max-width: 576px) {
@@ -192,11 +199,6 @@ p {
     text-align: center;
   }
 
-  .primary-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
   .contact-me {
     font-size: 42px;
   }
