@@ -181,6 +181,21 @@ p {
   margin: auto;
   padding: 20px;
 }
+.work-div {
+  margin-top: 48px;
+}
+@media (max-width: 966px) {
+  .home-photo {
+    margin-top: 80px;
+  }
+  .fa-angles-down {
+    padding: 10px;
+    margin-top: 5px;
+  }
+  .work-div {
+    margin: 20px;
+  }
+}
 
 @media (max-width: 766px) {
   .this-is-me {
