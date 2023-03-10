@@ -168,10 +168,25 @@ p {
   font-family: var(--header-font);
 }
 
+.fa-angles-down {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  padding: 30px;
+  margin-top: 20px;
+}
+.contact-icon {
+  width: 150px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
 @media (max-width: 766px) {
   .this-is-me {
     display: none;
   }
+
   .home-photo-me {
     max-height: 350px;
     display: block;
@@ -196,11 +211,17 @@ p {
   h3 {
     font-size: 20px;
   }
+  .contact-icon {
+    width: 100px;
+    padding: 10px;
+  }
   .app-title {
     font-size: 35px;
     text-align: center;
   }
-
+  .fa-angles-down {
+    font-size: 20px;
+  }
   .contact-me {
     font-size: 42px;
   }
