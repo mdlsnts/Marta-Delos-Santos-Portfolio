@@ -156,10 +156,14 @@ p {
   background-color: #f4f0f0;
 }
 .primary-link {
-  font-size: 25px;
+  font-size: 40px;
   color: var(--secondary-color);
-  margin-left: 25px;
+  text-decoration: none;
 }
+.primary-link:hover {
+  text-decoration: underline;
+}
+
 .p-title {
   font-size: 32px;
   text-align: center;
@@ -185,6 +189,15 @@ p {
   margin-top: 48px;
 }
 @media (max-width: 966px) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  h3 {
+    font-size: 22px;
+  }
   .home-photo {
     margin-top: 80px;
   }
@@ -195,13 +208,38 @@ p {
   .work-div {
     margin: 20px;
   }
+  .p-title {
+    font-size: 30px;
+  }
+  p {
+    font-size: 17px;
+    text-indent: 8%;
+  }
+  .contact-icon {
+    width: 135px;
+  }
 }
 
 @media (max-width: 766px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+    text-indent: 8%;
+  }
   .this-is-me {
     display: none;
   }
-
+  .p-title {
+    font-size: 28px;
+  }
   .home-photo-me {
     max-height: 350px;
     display: block;
@@ -210,10 +248,8 @@ p {
   .home-photo {
     display: none;
   }
-  .primary-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
+  .contact-icon {
+    width: 120px;
   }
 }
 @media (max-width: 576px) {
@@ -224,7 +260,11 @@ p {
     font-size: 30px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  p {
+    font-size: 15px;
+    text-indent: 6%;
   }
   .contact-icon {
     width: 100px;
@@ -239,5 +279,12 @@ p {
   }
   .contact-me {
     font-size: 42px;
+  }
+  .primary-link {
+    text-align: center;
+    font-size: 34px;
+  }
+  .p-title {
+    font-size: 26px;
   }
 }
