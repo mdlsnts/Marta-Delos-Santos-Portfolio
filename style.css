@@ -181,10 +181,10 @@ p {
   margin-top: 20px;
 }
 .contact-icon {
-  width: 150px;
+  width: 130px;
   display: block;
   margin: auto;
-  padding: 20px;
+  padding: 40px 0px 40px 0px;
 }
 .work-div {
   margin-top: 48px;
@@ -215,6 +215,7 @@ footer {
 .mobile-only {
   text-align: center;
   font-size: 16px;
+  text-shadow: 1px 1px 3px #7e4a87;
 }
 
 @media (max-width: 966px) {
@@ -228,7 +229,7 @@ footer {
     font-size: 22px;
   }
   .home-photo {
-    margin-top: 80px;
+    margin-top: 50px;
   }
   .fa-angles-down {
     padding: 10px;
@@ -245,7 +246,7 @@ footer {
     text-indent: 8%;
   }
   .contact-icon {
-    width: 135px;
+    width: 120px;
   }
 }
 
@@ -278,7 +279,7 @@ footer {
     display: none;
   }
   .contact-icon {
-    width: 120px;
+    width: 110px;
   }
 }
 @media (max-width: 576px) {
