@@ -189,6 +189,7 @@ p {
 .work-div {
   margin-top: 48px;
 }
+
 footer {
   text-align: center;
   background-color: var(--accent-color);
@@ -217,7 +218,6 @@ footer {
   font-size: 16px;
   text-shadow: 1px 1px 3px #7e4a87;
 }
-
 
 @media (max-width: 966px) {
   h1 {
