@@ -287,6 +287,10 @@ footer {
   .label {
     margin-left: -10px;
   }
+  .skill {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media (max-width: 766px) {
@@ -319,6 +323,10 @@ footer {
   }
   .contact-icon {
     width: 110px;
+  }
+  .skill {
+    width: 60px;
+    height: 60px;
   }
 }
 @media (max-width: 576px) {
@@ -357,7 +365,6 @@ footer {
     font-size: 26px;
   }
   .skill {
-    margin: auto;
     width: 50px;
     height: 50px;
   }
