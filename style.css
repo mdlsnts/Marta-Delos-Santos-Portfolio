@@ -1,7 +1,7 @@
 :root {
   --primary-color: #fbf9fa;
   --secondary-color: #13233f;
-  --accent-color: #ff9494;
+  --accent-color: #fa7070;
   --background-color: #d8d8d8;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Nunito", sans-serif;
@@ -60,7 +60,6 @@ p {
 }
 
 .home-photo-me {
-  background-color: var(--accent-color);
   max-height: 450px;
 }
 .home-photo {
@@ -68,6 +67,8 @@ p {
   max-height: 450px;
   border: 3px solid var(--secondary-color);
   padding: 15px;
+  display: block;
+  margin: 0 auto;
 }
 
 .about-me-d {
@@ -182,11 +183,7 @@ p {
   grid-gap: 50px;
   padding: 20px;
 }
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  padding: 10px;
-}
+
 .my-skills {
   padding-top: 70px;
 }
@@ -200,17 +197,12 @@ p {
 .label {
   text-align: center;
   margin: auto;
-  margin-left: -30px;
+  margin-left: -25px;
   padding: 10px;
   font-size: 14px;
   opacity: 0.8;
 }
-.work-label {
-  display: block;
-  margin: 0 auto;
-  width: 40px;
-  height: 40px;
-}
+
 .fa-angles-down {
   text-align: center;
   width: 100%;
@@ -376,6 +368,6 @@ footer {
   .label {
     font-size: 12px;
     padding: 8px;
-    margin-left: 0;
+    margin-left: -5px;
   }
 }
