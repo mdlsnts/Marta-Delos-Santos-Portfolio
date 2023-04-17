@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #fbf9fa;
-  --secondary-color: #13233f;
-  --accent-color: #fa7070;
-  --background-color: #d8d8d8;
+  --primary-color: #f7f7f3;
+  --secondary-color: #0c1120;
+  --accent-color: #a070a9;
+  --background-color: #e0d0e3;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Nunito", sans-serif;
-  --header-font: "Mynerve", cursive;
+  --header-font: "Licorice", cursive;
   --secondary-font: "Tenor Sans", sans-serif;
 }
 
@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 38px;
   margin-top: 40px;
   font-family: var(--secondary-font);
 }
@@ -375,6 +375,6 @@ footer {
   .label {
     font-size: 12px;
     padding: 8px;
-    margin-left: -5px;
+    margin-left: -8px;
   }
 }
