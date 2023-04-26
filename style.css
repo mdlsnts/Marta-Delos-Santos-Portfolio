@@ -63,12 +63,17 @@ p {
   max-height: 450px;
 }
 .home-photo {
-  background-color: var(--accent-color);
+  background-color: var(--background-color);
   max-height: 450px;
   border: 3px solid var(--secondary-color);
   padding: 15px;
   display: block;
   margin: 0 auto;
+  filter: grayscale(0.4);
+}
+.home-photo:hover {
+  background-color: var(--accent-color);
+  filter: grayscale(0);
 }
 
 .about-me-d {
