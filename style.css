@@ -1,8 +1,9 @@
 :root {
-  --primary-color: #f7f7f3;
+  --primary-color: #fcf2ff;
   --secondary-color: #0c1120;
-  --accent-color: #a070a9;
-  --background-color: #e0d0e3;
+  --accent-color: #ebd5f2;
+  --link-color: #9878b7;
+  --background-color: #efddf5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Nunito", sans-serif;
   --header-font: "Licorice", cursive;
@@ -69,7 +70,7 @@ p {
   padding: 15px;
   display: block;
   margin: 0 auto;
-  filter: grayscale(0.4);
+  filter: grayscale(0.5);
 }
 .home-photo:hover {
   background-color: var(--accent-color);
@@ -214,11 +215,11 @@ p {
   font-size: 30px;
   padding: 30px;
   margin-top: 20px;
-  color: var(--accent-color);
+  color: var(--link-color);
 }
 .fa-heart,
 .fa-cat {
-  color: var(--accent-color);
+  color: var(--link-color);
 }
 .contact-icon {
   width: 130px;
@@ -246,7 +247,7 @@ footer {
 }
 .footer-link:hover,
 .shecodes:hover {
-  color: var(--accent-color);
+  color: var(--link-color);
 }
 
 .fa-brands {
