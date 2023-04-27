@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #fdfbfe;
-  --secondary-color: #0c1120;
-  --accent-color: #9878b7;
+  --primary-color: #fffbff;
+  --secondary-color: #3e2f54;
+  --accent-color: #9a205f;
   --background-color: #efddf5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Nunito", sans-serif;
@@ -63,16 +63,15 @@ p {
   max-height: 450px;
 }
 .home-photo {
-  background-color: var(--background-color);
+  background-color: var(--accent-color);
   max-height: 450px;
   border: 3px solid var(--secondary-color);
   padding: 15px;
   display: block;
   margin: 0 auto;
-  filter: grayscale(0.5);
+  filter: grayscale(0.6);
 }
 .home-photo:hover {
-  background-color: #c1aed3;
   filter: grayscale(0);
 }
 
@@ -148,6 +147,10 @@ p {
 
 .nav-link {
   margin-left: 1.5rem;
+  color: var(--secondary-color);
+}
+.navbar-collapse {
+  color: var(--secondary-color);
 }
 
 .mds-logo {
