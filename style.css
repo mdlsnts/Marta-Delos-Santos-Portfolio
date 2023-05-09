@@ -57,10 +57,13 @@ p {
 
 .this-is-me {
   float: right;
+  margin-right: -50px;
 }
 
 .home-photo-me {
   max-height: 450px;
+  margin: 0 auto;
+  display: block;
 }
 .home-photo {
   background-color: var(--accent-color);
@@ -179,6 +182,7 @@ p {
   font-size: 32px;
   text-align: center;
 }
+
 .contact-me {
   font-family: var(--header-font);
 }
@@ -298,6 +302,9 @@ footer {
   .skill {
     width: 70px;
     height: 70px;
+  }
+  .this-is-me {
+    margin-right: 0px;
   }
 }
 
