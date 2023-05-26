@@ -175,7 +175,7 @@ p {
   text-decoration: none;
 }
 .primary-link:hover {
-  text-decoration: underline;
+  color: var(--accent-color);
 }
 
 .p-title {
