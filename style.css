@@ -5,8 +5,7 @@
   --background-color: #d3d3d3;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Nunito", sans-serif;
-  --header-font: "Cookie", cursive;
-  --secondary-font: "Tenor Sans", sans-serif;
+  --secondary-font: "Cookie", cursive;
 }
 
 body {
@@ -27,13 +26,13 @@ h3 {
 
 h1 {
   font-size: 80px;
-  font-family: var(--header-font);
+  font-family: var(--secondary-font);
 }
 
 h2 {
   font-size: 30px;
   margin-top: 200px;
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
 }
 
 h3 {
@@ -156,7 +155,7 @@ p {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-left: 1rem;
-  font-family: var(--header-font);
+  font-family: var(--secondary-font);
   font-size: 30px;
   color: #4f4654;
 }
@@ -208,7 +207,7 @@ p {
 }
 
 .contact-me {
-  font-family: var(--header-font);
+  font-family: var(--secondary-font);
 }
 
 .grid {
