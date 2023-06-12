@@ -32,7 +32,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  margin-top: 170px;
+  margin-top: 200px;
   font-family: var(--secondary-font);
 }
 
@@ -72,7 +72,8 @@ p {
 }
 .home-coding-img {
   filter: grayscale(90%);
-  margin-top: 90px;
+  margin-top: 150px;
+  opacity: 0.7;
 }
 
 .home-photo {
