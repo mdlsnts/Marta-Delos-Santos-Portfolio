@@ -54,10 +54,28 @@ p {
   text-align: center;
   margin-top: 40px;
 }
+.resume-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 26px;
+  text-decoration: none;
+  padding: 5px 10px;
+  max-width: 100px;
+  margin: 20px auto;
+}
+.resume-link:hover {
+  color: #887792;
+}
 
-.qands {
+.qands,
+.resume {
   text-align: center;
   font-size: 18px;
+  color: #6c5f73;
+}
+.resume {
+  padding: 20px;
 }
 
 .container {
@@ -458,5 +476,11 @@ footer {
     font-size: 12px;
     padding: 8px;
     margin-left: -8px;
+  }
+  .resume {
+    font-size: 16px;
+  }
+  .resume-link {
+    font-size: 20px;
   }
 }
