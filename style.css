@@ -107,11 +107,11 @@ p {
 .home-photo:hover {
   filter: grayscale(0);
 }
-.blabla {
+.about-me {
   padding: 20px;
-  margin: 30px;
+  margin: 10px 30px;
 }
-.blabla p {
+.about-me p {
   justify-content: center;
 }
 
@@ -243,7 +243,6 @@ p {
 }
 .my-skills h3 {
   text-align: left;
-  margin-left: 5px;
 }
 
 .skill {
@@ -328,9 +327,6 @@ footer {
   }
 }
 
-@media (max-width: 992px) {
-}
-
 @media (max-width: 966px) {
   h1 {
     font-size: 70px;
@@ -371,11 +367,6 @@ footer {
   .this-is-me {
     margin-right: 0px;
   }
-}
-
-@media (max-width: 900px) {
-}
-@media (max-width: 820px) {
 }
 
 @media (max-width: 766px) {
@@ -454,7 +445,10 @@ footer {
     width: 50px;
     height: 50px;
   }
-
+  .about-me {
+    margin: 0 10px;
+    padding-top: 0;
+  }
   .grid-4-columns {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
