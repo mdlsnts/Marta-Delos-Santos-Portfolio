@@ -322,6 +322,10 @@ footer {
   max-width: 150px;
   vertical-align: -5%;
 }
+.resume-img {
+  max-width: 300px;
+  padding: 20px;
+}
 
 @keyframes roll {
   from {
@@ -413,6 +417,10 @@ footer {
   .img-undraw {
     max-width: 120px;
   }
+  .resume-img {
+    max-width: 250px;
+    padding: 15px;
+  }
 }
 @media (max-width: 576px) {
   h1 {
@@ -474,5 +482,8 @@ footer {
   }
   .img-undraw {
     max-width: 100px;
+  }
+  .resume-img {
+    max-width: 200px;
   }
 }
