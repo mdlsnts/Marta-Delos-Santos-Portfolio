@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #f5f2f5;
-  --secondary-color: #151526;
-  --accent-color: #c49adb;
-  --background-color: #dfd5df;
+  --primary-color: #fcfcf9;
+  --secondary-color: #231f54;
+  --accent-color: #583d86;
+  --background-color: #e1d4f2;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Nunito", sans-serif;
   --secondary-font: "Cookie", cursive;
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  margin-top: 200px;
+  margin-top: 120px;
   font-family: var(--primary-font);
 }
 
@@ -91,7 +91,7 @@ p {
 }
 .home-coding-img {
   filter: grayscale(60%);
-  margin-top: 100px;
+  margin-top: 50px;
   opacity: 0.7;
 }
 
